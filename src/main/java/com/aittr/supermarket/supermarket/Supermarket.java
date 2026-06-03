@@ -34,6 +34,24 @@ public class Supermarket {
     }
 
     public void addProduct(Product p,double quantity){
+        if(stock.contains(p) == false){
+            p.setQuantity(quantity);
+            stock.add(p);
+            stock.sort(null);
+
+        }
+        else {
+            for (Product pr: stock){
+            if (pr.getCode()  == p.getCode()) {
+                double q = pr.getCode();
+                q +=quantity;
+                pr.setQuantity(q);
+                break;
+
+            }
+            }
+        }
+
 
     }
 }
