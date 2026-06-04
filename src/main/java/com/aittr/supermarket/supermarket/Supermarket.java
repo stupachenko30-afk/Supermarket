@@ -174,4 +174,7 @@ public class Supermarket {
 
         }
     }
+        System.out.println("_________________________");
+        System.out.println("Wrong code ! ! !" + code);
+        System.out.println("_________________________");
 }}
