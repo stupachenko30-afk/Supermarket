@@ -32,7 +32,7 @@ public class Product implements Comparable<Product>{
     }
 
     public void setName(String name) {
-        if (name != null);
+        if (name != null)
         this.name = name;
     }
 
@@ -41,7 +41,7 @@ public class Product implements Comparable<Product>{
     }
 
     public void setCode(int code) {
-        if (code != 0 );
+        if (code != 0 )
         this.code = code;
     }
 
@@ -50,7 +50,7 @@ public class Product implements Comparable<Product>{
     }
 
     public void setUnit(String unit) {
-        if (unit != null);
+        if (unit != null)
         this.unit = unit;
     }
 
@@ -59,7 +59,7 @@ public class Product implements Comparable<Product>{
     }
 
     public void setPrice(double price) {
-        if (price != 0);
+        if (price != 0)
         this.price = price;
     }
 
@@ -68,7 +68,7 @@ public class Product implements Comparable<Product>{
     }
 
     public void setQuantity(double quantity) {
-        if (quantity != 0);
+        if (quantity != 0)
         this.quantity = quantity;
     }
 
