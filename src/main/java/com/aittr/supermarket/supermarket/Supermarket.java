@@ -44,7 +44,7 @@ public class Supermarket {
         else {
             for (Product pr: stock){
             if (pr.getCode()  == p.getCode()) {
-                double q = pr.getCode();
+                double q = pr.getQuantity();
                 q +=quantity;
                 pr.setQuantity(q);
                 break;

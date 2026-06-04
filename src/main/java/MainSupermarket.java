@@ -28,13 +28,13 @@ public class MainSupermarket {
         lidl.addProduct(p1, 100);
 
 //        lidl.printProduct();
-//        Product p11 = new Product("Potato", 111, "kg", 6.90);
-//        lidl.addProduct(p11, 400);
-//        lidl.printProduct();
-//
-//        Product p12 = new Product("Potato", 112, "kg", 6.90);
-//        lidl.addProduct(p12, 600);
-//        lidl.printProduct();
+        Product p11 = new Product("Potato", 111, "kg", 6.90);
+        lidl.addProduct(p11, 400);
+        lidl.printProduct();
+
+        Product p12 = new Product("Potato", 111, "kg", 6.90);
+        lidl.addProduct(p12, 600);
+        lidl.printProduct();
 
 //        lidl.removeProduct(111,100);
 //        lidl.printProduct();
@@ -45,25 +45,25 @@ public class MainSupermarket {
 //        lidl.reducePriceAll(50);
 //        lidl.printProduct();
 //
-        lidl.sortProductsBy(ISortingCriteria.SORT_BY_PRICE);
-        lidl.printProduct();
-        lidl.sortProductsBy(ISortingCriteria.SORT_BY_PRICE_REVERSE);
-        lidl.printProduct();
-
-        lidl.sortProductsBy(ISortingCriteria.SORT_BY_CODE);
-        lidl.printProduct();
-        lidl.sortProductsBy(ISortingCriteria.SORT_BY_CODE_REVERSE);
-        lidl.printProduct();
-
-        lidl.sortProductsBy(ISortingCriteria.SORT_BY_NAME);
-        lidl.printProduct();
-        lidl.sortProductsBy(ISortingCriteria.SORT_BY_NAME_REVERSE);
-        lidl.printProduct();
-
-        lidl.sortProductsBy(ISortingCriteria.SORT_BY_QUANTITY);
-        lidl.printProduct();
-        lidl.sortProductsBy(ISortingCriteria.SORT_BY_QUANTITY_REVERSE);
-        lidl.printProduct();
+//        lidl.sortProductsBy(ISortingCriteria.SORT_BY_PRICE);
+//        lidl.printProduct();
+//        lidl.sortProductsBy(ISortingCriteria.SORT_BY_PRICE_REVERSE);
+//        lidl.printProduct();
+//
+//        lidl.sortProductsBy(ISortingCriteria.SORT_BY_CODE);
+//        lidl.printProduct();
+//        lidl.sortProductsBy(ISortingCriteria.SORT_BY_CODE_REVERSE);
+//        lidl.printProduct();
+//
+//        lidl.sortProductsBy(ISortingCriteria.SORT_BY_NAME);
+//        lidl.printProduct();
+//        lidl.sortProductsBy(ISortingCriteria.SORT_BY_NAME_REVERSE);
+//        lidl.printProduct();
+//
+//        lidl.sortProductsBy(ISortingCriteria.SORT_BY_QUANTITY);
+//        lidl.printProduct();
+//        lidl.sortProductsBy(ISortingCriteria.SORT_BY_QUANTITY_REVERSE);
+//        lidl.printProduct();
 
        // lidl.findProduct();
 
