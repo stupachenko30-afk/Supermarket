@@ -177,4 +177,35 @@ public class Supermarket {
         System.out.println("_________________________");
         System.out.println("Wrong code ! ! !" + code);
         System.out.println("_________________________");
-}}
+}
+        public double totalCost(){
+            double total = 0;
+            for (Product pr: stock){
+                double price = pr.getPrice();
+                double quantity = pr.getQuantity();
+//                double productPrice = price * quantity;
+//                total += productPrice;
+                total += (price * quantity);
+
+            }
+            return total;
+        }
+//    public double totalCoast(){
+//        double sum = 0;
+//        for (Product pr: stock){
+//            sum += pr.getQuantity()*pr.getPrice();
+//        }
+//        return sum;
+//    }
+//public void removeProductFromStock(int code){
+//    for (Product pr : stock) {
+//        if(pr.getCode() == code) {
+//            stock.remove(pr);
+//            return;
+//        }
+//    }
+//    System.out.println(" _____________________________");
+//    System.out.println("| Wrong code ! ! ! ! ! " + code + " |");
+//    System.out.println(" _____________________________");
+//}
+}

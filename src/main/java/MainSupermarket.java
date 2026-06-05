@@ -67,6 +67,9 @@ public class MainSupermarket {
 
        // lidl.findProduct();
 
+            double total = lidl.totalCost();
+        System.out.printf(" Total cost = %.2f euro", total);  // для округления
+       // System.out.println("Total cost =" +total + " euro");
 
 
 
